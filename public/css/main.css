@@ -1,0 +1,121 @@
+html,body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	position: relative;
+	font-size: 100%;
+	font-weight: normal;
+	background-color: whitesmoke;
+}
+
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	/*border:1px solid black !important;*/
+}
+
+span#log_email_required,span#log_pass_required,
+span#reg_fname_required,span#reg_lname_required,
+span#reg_email_required,span#reg_pwd_required,
+span#reg_pwd_rpt_required{
+	color: red !important;
+	font-size: 12px;
+}
+
+
+h1{
+	font-size: 32px !important;
+}
+
+h2{
+	font-size: 24px !important;
+}
+
+h3{
+	font-size: 18.72px !important;
+}
+
+h4{
+	font-size: 16px !important;
+}
+
+p{
+	font-size: 14px !important;
+}
+
+header.banner{
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	padding: 10px 0;
+	border-bottom: 1px solid silver;
+	background-color: white;
+}
+
+form.login-form,div.form-group{
+    margin: 0 !important;  
+}
+
+div.form-group{
+	padding: 15px 0;
+}
+
+section.content{
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 75px;
+	padding: 50px 0;
+	background-color: whitesmoke;
+}
+
+
+header.dash-banner{
+	width: 100%;
+	position: relative;
+	padding: 100px 0;
+	background-color: rgb(50,50,50);
+	color: rgb(255,255,255);
+}
+
+a.sign-out{
+	position: absolute;
+	top: 25px;
+	right: 25px;
+	z-index: 20;
+	padding: 10px 5px;
+}
+
+section.personal{
+	width: 100%;
+	position: relative;
+	padding: 50px 0;
+}
+
+div.personal-data{
+	border:1px solid silver;
+	padding: 15px;
+}
+
+div.avatar-wrap{
+	width: 100%;
+	height: 300px;
+	padding: 15px;
+	position: relative;
+	overflow: hidden;
+	border:1px solid silver;
+}
+
+img.avatar{
+	min-width: 100%;
+	min-height: 100%;
+}
+
+section.verify-content{
+	width: 100%;
+	padding: 150px 0;
+	border:1px solid silver;
+}
